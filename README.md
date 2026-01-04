@@ -1,2 +1,2 @@
 # BlackJack-cpp
-Command-Line Blackjack game implemented in C++ using object-oriented design
+A Command-Line Blackjack game written in C++ using object-oriented programming principles.
