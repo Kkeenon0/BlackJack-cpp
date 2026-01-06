@@ -17,10 +17,10 @@ Deck::Deck() : currentIndex(0) {
 }
 
 void Deck::shuffle() {
-  random_device rd;
-  mt19937 g(rd());
-  shuffle(cards.begin(), cards.end(), g);
-  currentIndex = 0;
+    std::random_device rd;
+    std::mt19937 g(rd());
+    std::shuffle(cards.begin(), cards.end(), g);
+    currentIndex = 0;
 }
 
 Card Deck::dealCard(){
