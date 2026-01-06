@@ -11,7 +11,7 @@ Hand& Player::getHand(){
     return hand;
 }
 const Hand& Player::getHand() const{
-    return hand
+    return hand;
       }
 
 void Player::clearHand(){
