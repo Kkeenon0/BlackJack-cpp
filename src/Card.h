@@ -14,6 +14,6 @@ public:
   Card(string r, string s, int v);
   int getValue() const;
   string toString() const;
-}
+};
 
 #endif
